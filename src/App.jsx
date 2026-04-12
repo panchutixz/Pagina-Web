@@ -1,4 +1,7 @@
 import './App.css'
+import fotoperfil from './assets/Imagenes/dosecat.jpg'
+import Aseo from './assets/Imagenes/Aseo2.png'
+
 
 function App() {
   return (
@@ -19,7 +22,7 @@ function App() {
               <h1>Gestión inteligente de limpieza para universidades</h1>
               <p className="hero-text">
                 Una solución práctica para los sistemas de limpieza universitaria, enfocada en optimizar la limpieza y mantenimiento de espacios educativos, reducir costos
-                y asegurar el cumplimiento de normas sanitarias.
+                y asegurar el cumplimiento de normas sanitarias, mediante visualizacion web y movil.
               </p>
               <div className="cta-group">
                 <a href="#objetivos" className="button button-primary">Ver objetivos</a>
@@ -74,8 +77,11 @@ function App() {
               <p>
                 Reduce costos operativos, mejora la efectividad de los procesos de limpieza y facilita la supervisión diaria de espacios educativos.
               </p>
+              <img src={Aseo} alt=" Personal del aseo" />
             </div>
-            <div className="benefits-panel">
+            <div className="benefits-panel">  
+              <div className="feature-icon">📈</div>
+              <h3>Resultados tangibles</h3>
               <p>• Eficiencia en la gestión</p>
               <p>• Visibilidad de tareas</p>
               <p>• Menor margen de error</p>
@@ -90,10 +96,14 @@ function App() {
               <h2>Acerca del autor</h2>
               <p>
                 Francisco Antonio Matamala Alarcón, estudiante de 4to año en Ingeniería de Ejecución en Computación e Informática
-                en la Universidad del Bío-Bío. Esta tesis usa tecnología práctica para resolver problemas reales en limpieza y mantenimiento de espacios universitarios.
+                en la Universidad del Bío-Bío. Este proyecto usa tecnología práctica para resolver problemas reales en limpieza y mantenimiento de espacios universitarios.
               </p>
             </div>
             <div className="author-card">
+              <div className="author-image">
+                <img src={fotoperfil} alt="Francisco A. Matamala" />
+              </div>
+
               <p className="author-name">Francisco A. Matamala</p>
               <p>Estudiante de Ingeniería de Ejecución en Computación e Informática</p>
               <p>Universidad del Bío-Bío</p>
